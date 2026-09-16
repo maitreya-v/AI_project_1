@@ -8,7 +8,11 @@ Maitreya Vaghulade (117437999) and Karan Jain (117420953).
 
 - [search.zip](search.zip): all seven solutions, original supporting files, documentation, reproducible validation scripts, and Mac demo launchers.
 - [Project01_Report.pdf](Project01_Report.pdf): revised submission report with both team members, measured results, heuristic proofs, and critical analysis.
-- [Project01_PacMan_Presentation.pptx](Project01_PacMan_Presentation.pptx): 12-slide presentation with editable charts and speaker notes.
+- [Project01_PacMan_Presentation.pptx](Project01_PacMan_Presentation.pptx): interactive presentation with 17 main slides, 3 optional demo pages, editable charts, and speaker notes.
+
+## Present
+
+Open the PowerPoint file in Slide Show mode and click **Start presentation**. Use the section menu, **Back**, **Next**, and **Reveal** buttons to navigate. The live-demo buttons open the relevant command and expected result inside the deck; run the game separately in your terminal using the launchers below.
 
 ## Run
 
