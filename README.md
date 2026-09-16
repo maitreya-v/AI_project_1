@@ -2,10 +2,12 @@
 
 CSE 537, Fall 2026.
 
+Maitreya Vaghulade (117437999) and Karan Jain (117420953).
+
 ## Project files
 
-- [search.zip](search.zip): all seven solutions, original supporting files, documentation, and reproducible validation scripts.
-- [Project01_Report.pdf](Project01_Report.pdf): measured results, heuristic proofs, and critical analysis.
+- [search.zip](search.zip): all seven solutions, original supporting files, documentation, reproducible validation scripts, and Mac demo launchers.
+- [Project01_Report.pdf](Project01_Report.pdf): revised submission report with both team members, measured results, heuristic proofs, and critical analysis.
 - [Project01_PacMan_Presentation.pptx](Project01_PacMan_Presentation.pptx): 12-slide presentation with editable charts and speaker notes.
 
 ## Run
@@ -19,6 +21,20 @@ python pacman.py -l trickySearch -p AStarFoodSearchAgent
 ```
 
 Append `-q` to run without graphics. See the README inside the archive for more instructions.
+
+### Mac presentation demos
+
+After extracting the ZIP, double-click `Run_Pacman.command` for food search, or `Demo_Pacman.command` for a choice of demonstrations. The launchers require Python 3.11 with Tkinter. Normal demo playback uses a 0.04-second delay per move.
+
+From the extracted folder, you can also run:
+
+```sh
+./Demo_Pacman.command bfs
+./Demo_Pacman.command corners
+./Demo_Pacman.command food
+```
+
+Use `./Demo_Pacman.command step` to advance one move at a time, or `./Demo_Pacman.command fast` to remove animation delays. In step mode, any key advances one move and `q` resumes playback.
 
 ## Validation
 
